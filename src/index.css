@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(background.png);
+}
+
+.box {
+	display: inline-block;
+	border: 1px solid #03f816;
+	width: 15px;
+	height: 15px;
+	margin-left: -1px;
+	margin-bottom: -1px;
+}
+
+.off {
+	background-color: white;
+}
+
+.on {
+	background-color: #ceff00;
+}
+
+.box:hover {
+	background: #00CCFF;
+}
+
+.center {
+	margin: auto;
+	display: table;
+	margin-top: 10px;
+}
+
+.grid {
+	width: 150px;
+	line-height: 0;
+	margin: auto;
+	box-shadow: 0px 0px 20px white;
+	margin-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #dedede;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+h4 {
+	margin-top: 0px;
+}
+
+.btn {
+	background: #E8E7F6;
+	background-image: -webkit-linear-gradient(top, #E8E7F6, #515557);
+	background-image: -moz-linear-gradient(top, #E8E7F6, #515557);
+	background-image: -ms-linear-gradient(top, #E8E7F6, #515557);
+	background-image: -o-linear-gradient(top, #E8E7F6, #515557);
+	background-image: linear-gradient(to bottom, #E8E7F6, #515557);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 10px;
+	color: #000000;
+	font-family: Open Sans;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px;
+	box-shadow: inset 1px 1px 20px 0px #99C624;
+	-webkit-box-shadow: inset 1px 1px 20px 0px #99C624;
+	-moz-box-shadow: inset 1px 1px 20px 0px #99C624;
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #337FED 1px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btn:hoover {
+	background: #6A6E73;
+	background-image: -webkit-linear-gradient(top, #6A6E73, #8C8A91);
+	background-image: -moz-linear-gradient(top, #6A6E73, #8C8A91);
+	background-image: -ms-linear-gradient(top, #6A6E73, #8C8A91);
+	background-image: -o-linear-gradient(top, #6A6E73, #8C8A91);
+	background-image: linear-gradient(to bottom, #6A6E73, #8C8A91);
+	text-decoration: none;
+}
+
+.rules {
+	color: #9fdd00;
+	background-color: black;
+	text-align: center;
+}
+
+.gameRules {
+	color: #9fdd00;
+}
